@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Session 5 - Embedding Media</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>Hello World From Html Code</h1>
+<h2>Hello World From Html Code</h2>
+<h3>Hello World From Html Code</h3>
+<h4>Hello World From Html Code</h4>
+<h5>Hello World From Html Code</h5>
+<h6>Hello World From Html Code</h6>
+
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+  voluptate illo corrupti iure rerum inventore porro error obcaecati
+  soluta numquam, veritatis cumque at adipisci dolore, ipsa pariatur
+  consectetur explicabo sapiente, dicta quas? Obcaecati libero nulla
+  voluptatibus? Cum voluptatibus suscipit quisquam fuga repudiandae
+  sapiente ad unde sequi, iure nostrum accusamus quod debitis molestiae
+  quo dignissimos dolor veniam hic perferendis odit. Ea, odit ipsum
+  perspiciatis provident pariatur nostrum repellat enim reiciendis!
+  Quisquam magnam molestiae sit dignissimos minus laudantium amet
+  corrupti quo exercitationem earum voluptas odit incidunt, similique
+  cum, vitae ex perferendis libero reiciendis atque repellat id iste.
+</p>
+
+<p>Hiii</p>
+
+<img src="assets/cliff.jpg" alt="Green coastal cliffs" />
+<img src="assets/sunset.jpg" alt="Sunset over mountain ridges" />
+
+<ul class="links">
+  <li><a href="#about">About Page</a></li>
+  <li><a href="https://www.google.com" target="_blank" rel="noopener">Google</a></li>
+  <li><a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+  <li><a href="mailto:mohammedmontaser14@gmail.com">send by email</a></li>
+  <li><a href="tel:+201021178575">Call us</a></li>
+  <li><a href="https://wa.me/201021178575" target="_blank" rel="noopener">whats app Telegram Messanger</a></li>
+</ul>
+
+<table>
+  <caption>Personal Information</caption>
+  <thead>
+    <tr><th>First Name</th><th>Last Name</th><th>Color</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Sayed</td><td></td><td>Black</td></tr>
+    <tr><td>mariam</td><td>Mohamed</td><td>white</td></tr>
+    <tr><td>kareem</td><td></td><td>yellow</td></tr>
+    <tr><td colspan="3" class="span-row">Ahmed</td></tr>
+  </tbody>
+</table>
+
+<ol type="a" class="color-list">
+  <li>Red</li>
+  <li>Green</li>
+  <li>Blue</li>
+  <li>Yellow</li>
+  <li>Black</li>
+</ol>
+
+<ul class="name-list">
+  <li>ali</li>
+  <li>Sayed</li>
+  <li>Hassan</li>
+  <li>omar</li>
+</ul>
+
+<p>Egypt</p>
+<blockquote>Lorem ipsum dolor sit amet.</blockquote>
+
+<p>Ksa</p>
+<blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, corrupti?</blockquote>
+
+<fieldset>
+<legend>Personal Information</legend>
+<form id="demoForm">
+  <div class="field">
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter Your Name" />
+  </div>
+  <div class="field">
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter your Email" />
+  </div>
+  <div class="field">
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Enter your Password" />
+  </div>
+  <div class="field">
+    <label>Gender:</label>
+    <label class="inline"><input type="radio" name="gender" value="male" /> Male</label>
+    <label class="inline"><input type="radio" name="gender" value="female" checked /> Female</label>
+  </div>
+  <div class="field">
+    <label>Favsport:</label>
+    <label class="inline"><input type="checkbox" checked /> Football</label>
+    <label class="inline"><input type="checkbox" /> VolleyBall</label>
+    <label class="inline"><input type="checkbox" /> Tennis</label>
+    <label class="inline"><input type="checkbox" /> Basketball</label>
+  </div>
+  <div class="field">
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" />
+    <input type="week" />
+    <input type="month" />
+    <input type="time" />
+  </div>
+  <div class="field">
+    <label for="cv">Upload CV:</label>
+    <input type="file" id="cv" />
+  </div>
+  <div class="field">
+    <label for="quantity">Quantity:</label>
+    <input type="range" id="quantity" min="0" max="10" value="3" />
+  </div>
+  <div class="field">
+    <label for="price">Price:</label>
+    <input type="range" id="price" min="0" max="1000" value="200" />
+  </div>
+  <div class="field">
+    <label for="color">Color:</label>
+    <input type="color" id="color" value="#1a1a1a" />
+  </div>
+  <div class="field">
+    <label for="country">Country:</label>
+    <select id="country">
+      <option>France</option>
+      <option>Egypt</option>
+      <option>Saudi Arabia</option>
+      <option>UAE</option>
+    </select>
+  </div>
+  <div class="field">
+    <label for="favColors">Fav Colors:</label>
+    <input type="text" id="favColors" />
+  </div>
+  <div class="field">
+    <label for="message">Message:</label>
+    <textarea id="message" rows="3" placeholder="Enter Your Message"></textarea>
+  </div>
+  <div class="buttons">
+    <button type="submit">Login</button>
+    <button type="button" id="createBtn">Create New Account</button>
+    <button type="reset">Reset</button>
+  </div>
+</form>
+</fieldset>
+<p class="form-msg" id="formMsg"></p>
+
+<a class="bootstrap-banner" href="https://getbootstrap.com" target="_blank" rel="noopener">
+  <svg class="bs-logo" viewBox="0 0 118 94" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M16 0h62c20 0 40 11 40 33 0 15-10 23-18 26 10 3 22 12 22 29 0 24-20 36-43 36H16V0z" fill="#fff" fill-opacity=".15"/>
+    <path d="M38 18h36c12 0 20 7 20 17s-8 16-18 17c11 1 21 8 21 19s-10 19-23 19H38V18zm16 14v12h17c6 0 10-3 10-6s-4-6-10-6H54zm0 26v14h19c7 0 11-3 11-7s-4-7-11-7H54z" fill="#fff"/>
+  </svg>
+  <span>
+    <strong>Build fast, responsive sites with Bootstrap</strong>
+    <small>Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.</small>
+  </span>
+</a>
+
+<iframe
+  class="map"
+  src="https://maps.google.com/maps?q=New%20Cairo%20City%2C%20Egypt&output=embed"
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+  title="Map"
+></iframe>
+
+<video controls class="media-video" poster="https://interactive-examples.mdn.mozilla.net/media/examples/flower-600x400.jpg">
+  <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<audio controls class="media-audio">
+  <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3" type="audio/mpeg" />
+  Your browser does not support the audio tag.
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
